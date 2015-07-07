@@ -1,0 +1,157 @@
+img {
+	max-width: 100%;
+}
+.container {
+	width: 1100px;
+}
+
+.d-nav {
+	position: absolute;
+	right: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.bs-navbar-nav li a{
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 2;
+	text-transform: uppercase;
+	border-radius: 10px;
+	color: #203bff;
+}
+.bs-navbar-nav li a:hover {
+	border-radius: 10px;
+	background-color: #203bff;
+	color: #000;
+}
+.bs-navbar-nav li a:active {
+	border-radius: 10px;
+	background-color: #203BFF;
+	color: #000;
+}
+
+.icon-bar {
+	background-color: #203BFF;
+}
+.nav>li>a:focus{
+	background-color: #203BFF;
+	color:#000;
+}
+.collapse .navbar-collapse {
+	border: none;
+}
+
+.navbar-header span{
+	text-decoration: none;
+	font-size: 20px;
+	float: right;
+	margin-top: 25px;
+	text-align: center;
+	color: #0e4f95;
+}
+
+/*SLIDER*/
+
+.d-items {
+	position: relative;
+	top: 41%;
+	left: 1%;
+}
+
+
+.slider-text{
+	color: #203BFF;
+}
+
+.carousel-control .glyphicon-chevron-left {
+	width: 58px;
+	height: 58px;
+	background: url('../img/left_button.png') no-repeat 50%, 50%;
+	background-size: cover;
+	left: 10px;
+	top: 48.6%;
+
+}
+
+.carousel-control .glyphicon-chevron-right {
+	width: 58px;
+	height: 58px;
+	background: url('../img/right_button.png') no-repeat 50%, 50%;
+	background-size: cover;
+	right: 10px;
+	top: 48.7%;
+
+}
+.carousel-control.left,
+.carousel-control.right {
+	background: 0;
+}
+.glyphicon-chevron-left:before {
+	content: "";
+}
+.glyphicon-chevron-right:before {
+	content: "";
+}
+
+.carousel-inner .item {
+	background-position: 50%, 50%;
+	background-size: cover;
+	height: 100vh;
+}
+
+
+.carousel-inner p {
+	font-size: 28px;
+	font-weight: 100;
+	color: #0e4f95;
+	line-height: 1.2;
+	text-align: center;
+	padding: 13px 13px 0 0;
+	word-spacing: 0.3px;
+}
+
+.carousel-indicators {
+	bottom: 0;
+	left: 0;
+	z-index: 20;
+	width: 100%;
+	margin: 0;
+	font-size: 0;
+}
+
+.carousel-indicators li {
+	border-radius: 0;
+	height: 2px;
+	margin: 0;
+	padding: 0;
+	width: 20%;
+	background-color: #ccc;
+	border: 0;
+}
+
+.carousel-indicators li.active {
+	background-color: #203BFF;
+	height: 4px;
+	width: 20%;
+}
+
+.carousel-caption .btn-default {
+	border-radius: 10px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 12px;
+	padding: 16px 27px;
+	margin-top: 28px;
+}
+
+.carousel-caption .btn-default:hover {
+	background-color: #262626;
+}
+ul.nav li.dropdown:hover ul.dropdown-menu {
+	display: block;
+}
+
+
+/*ABOUT*/
+
