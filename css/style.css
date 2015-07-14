@@ -248,10 +248,23 @@ img {
 	transition: opacity 0.5s, transform 0.5s;
 }
 */
+/*about*/
+.about-domi{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size:28px;
+	margin: 30px 0;
+	line-height: 1;
 
+}
 /*d-office*/
 .d-office {
-	background-color: rgb(202, 202, 202);
+	background: url("../img/bg.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+
 }
 
 .d-office h2 {
@@ -297,13 +310,16 @@ img {
 
 }
 .d-invite{
-	background: url("../img/bg.jpg");
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	padding: 62px 0;
+ margin: 20px 0 10px;
 }
 /*d-motivation*/
+.d-motivation{
+background: url("../img/bg.jpg");
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+
+}
 
 .d-motivation h2 {
 	margin-top: 140px;
@@ -322,14 +338,10 @@ img {
 
 }
 /*recent*/
-.d-recent{
-	background: url("../img/bg.jpg");
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	padding: 62px 0;
-}
 
+.d-recent {
+	margin: 20px 0 40px;
+}
 
 
 .d-recent h2 {
@@ -352,7 +364,7 @@ img {
 
 .d-text h2 {
 	font: 15px "Bebas", Arial, Helvetica, sans-serif;
-	color: #fff;
+	color: #030505;
 	text-align: center;
 
 }
@@ -364,10 +376,14 @@ img {
 
 .d-text p {
 	font: 11px "Bebas", Arial, Helvetica, sans-serif;
-	color: #fff;
+	color: #030505;
 	text-align: center;
 }
-
+.recent-hover:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+	transition: 0.6s;
+}
 .d-scale-img:hover {
 	transform: scale(1.1);
 	cursor: pointer;
@@ -387,8 +403,13 @@ img {
 }
 .d-building img {
 	margin-bottom: 40px;
+	border: 1px solid gray;
 }
 /*d-used*/
+.d-used{
+	margin: 20px 0 40px;
+}
+
 .d-used img {
 	border: 1px solid #f5f5f5;
 	margin-bottom: 20px;
@@ -409,42 +430,35 @@ img {
 
 
 
-.d-used{
+
+/*d-about*/
+.d-about{
 	background: url("../img/bg.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	padding: 62px 0;
 }
-
-
-/*d-about*/
-
-.d-about {
+/*d-building*/
+.d-building{
+	background: url("../img/bg.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
 	background-size: cover;
-	background: url("../img/bgi.png") repeat;
-	text-align: center;
-
 }
-
-
 /*partners*/
-
-.d-partners .container {
-	width: 100% !important;
-	margin: 0
-}
-.d-partners {
+.d-partners{
+	background: url("../img/bg.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
 	padding-top: 75px;
 	padding-bottom: 35px;
-	background: #fff;
 	font-weight: 300;
-
 }
 .d-partners h2 {
 	text-align: center;
 	margin-top: 0;
-	margin-bottom: 60px;
+	margin-bottom: 20px;
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -455,6 +469,7 @@ img {
 	margin-top: 0;
 	font-weight: 700;
 	text-align: center;
+	color: #f5f5f5;
 }
 
 .d-partners .btn-default {
@@ -477,7 +492,7 @@ img {
 /*d-cordinate*/
 .d-cordinate h2 {
 	text-align: center;
-	margin-top: 0;
+	margin-top:20px;
 	margin-bottom: 60px;
 	text-transform: uppercase;
 	font-weight: 700;
