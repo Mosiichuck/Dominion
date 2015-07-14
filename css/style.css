@@ -30,7 +30,7 @@ img {
 	line-height: 2;
 	text-transform: uppercase;
 	border-radius: 10px;
-	color: #203bff;
+	color: #f3f3f3;
 }
 /*.d-navbar-nav li a:hover {
 
@@ -106,7 +106,7 @@ img {
 .carousel-inner p {
 	font-size: 28px;
 	font-weight: 100;
-	color: #0e4f95;
+	color: #f3f3f3;
 	line-height: 1.2;
 	text-align: center;
 	padding: 13px 13px 0 0;
