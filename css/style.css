@@ -19,10 +19,11 @@ img {
 	font-style: normal;
 }*/
 .d-nav {
-	position: absolute;
+	position: fixed;
 	right: 0;
 	left: 0;
 	z-index: 2;
+	background: rgba(15, 23, 31, 0.75);
 }
 .navbar ul {
 	margin-top: 15px;
@@ -175,13 +176,13 @@ img {
 	width: 100%;
 	height: 100vh;
 	background: rgba(15, 23, 31, 0.75);
+
 }
 
 .d-office h2 {
 	margin-top: 70px;
 	margin-bottom: 20px;
 	padding-left: 2px;
-
 	font-weight: 700;
 	line-height: 1;
 	text-transform: uppercase;
@@ -192,8 +193,6 @@ img {
 .d-office p {
 	text-align: center;
 	text-transform: uppercase;
-	font-weight: 700;
-;
 	margin: 130px 0 10px ;
 	line-height: 1;
 	color: #FFFFFF;
