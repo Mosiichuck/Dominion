@@ -153,7 +153,6 @@ img {
 .about-domi {
 	text-align: center;
 	text-transform: uppercase;
-	font-weight: 700;
 	line-height: 1;
 	margin: 40vh auto;
 	width: auto;
@@ -199,7 +198,9 @@ img {
 
 }
 /*d-invite*/
-
+.d-invite {
+	height: 100vh;
+}
 .d-invite p {
 	font: 28px 'Open Sans Condensed', sans-serif;
 	text-align: center;
@@ -217,10 +218,7 @@ img {
 	height:300px;
 
 }
-.d-invite{
- margin: 20px 0 10px;
-	height: 100vh;
-}
+
 /*d-motivation*/
 .d-motivation{
 background: url("../img/planet_scenes_3.jpg");
