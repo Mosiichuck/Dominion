@@ -28,12 +28,11 @@ img {
 	margin-top: 15px;
 }
 .d-navbar-nav li a{
-	font-size: 15px;
-	font-weight: 700;
 	line-height: 2;
 	text-transform: uppercase;
 	border-radius: 10px;
 	color: #f3f3f3;
+	font: 15px 'Open Sans Condensed', sans-serif;
 }
 
 .navbar .navbar-nav > li > a:hover {
@@ -50,11 +49,11 @@ img {
 
 .navbar-header span{
 	text-decoration: none;
-	font-size: 20px;
 	float: right;
 	margin: 25px 0 0 10px;
 	text-align: center;
 	color: #f3f3f3;
+	font: 20px 'Open Sans Condensed', sans-serif;
 }
 
 /*SLIDER*/
@@ -98,13 +97,13 @@ img {
 
 
 .carousel-inner p {
-	font-size: 28px;
 	font-weight: 100;
 	color: #f3f3f3;
 	line-height: 1.2;
 	text-align: center;
 	padding: 13px 13px 0 0;
 	word-spacing: 0.3px;
+	font: 28px 'Open Sans Condensed', sans-serif;
 }
 
 .carousel-indicators {
@@ -124,6 +123,7 @@ img {
 	width: 20%;
 	background-color: #ccc;
 	border: 0;
+
 }
 .carousel-indicators li.active {
 	background-color: #203BFF;
@@ -606,6 +606,18 @@ height: 100vh;
 	color: #203BFF;
 	background: #fff;
 
+}
+/*Call-to-Action*/
+.Call-to-Action{
+	height: 100vh;
+}
+.Call-to-Action h2 {
+	line-height: 1;
+	margin-top: 240px;
+	text-align: center;
+	color: #000;
+	text-transform: uppercase;
+	font: 60px 'Open Sans Condensed', sans-serif;
 }
 /*foteer*/
 .d-fot {
