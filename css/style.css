@@ -38,11 +38,11 @@ img {
 
 .navbar .navbar-nav > li > a:hover {
 	background: none;
-	color: #ff8c87;
+	color: #0362ff;
 }
 .nav>li>a:focus{
 	background: none;
-	color: #ff8c87;
+	color:  #0362ff;
 }
 .collapse .navbar-collapse {
 	border: none;
