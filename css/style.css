@@ -206,7 +206,7 @@ img {
 
 /*d-office*/
 .d-office {
-	background: url('../img/overlay.png'), url("../img/planet_scenes.jpg");
+	background: url('../img/overlay1.png'), url("../img/planet_scenes.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -280,7 +280,7 @@ img {
 
 /*d-motivation*/
 .d-motivation {
-	background: url('../img/overlay.png'), url("../img/planet_scenes_3.jpg");
+	background: url('../img/overlay1.png'), url("../img/planet_scenes_3.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -416,7 +416,7 @@ img {
 
 /*d-about*/
 .d-about {
-	background: url('../img/overlay.png'), url("../img/planet_scenes_1.jpg");
+	background: url('../img/overlay1.png'), url("../img/planet_scenes_1.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -446,7 +446,7 @@ img {
 
 /*d-building*/
 .d-building {
-	background: url('../img/overlay.png'), url("../img/bg.jpg");
+	background: url('../img/overlay1.png'), url("../img/bg.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -466,7 +466,7 @@ img {
 
 /*partners*/
 .d-partners {
-	background: url('../img/overlay.png'), url("../img/bg.jpg");
+	background: url('../img/overlay1.png'), url("../img/bg.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -655,7 +655,7 @@ textarea:-ms-input-placeholder {
 
 /*d-garant*/
 .d-garant {
-	background: url('../img/overlay.png'), url("../img/planet_scenes.jpg");
+	background: url('../img/overlay1.png'), url("../img/planet_scenes.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
