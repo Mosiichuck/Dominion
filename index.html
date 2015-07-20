@@ -540,9 +540,32 @@
 
 <script type="text/javascript">
 
-	$('cycle').carousel({
-		interval: 2000
-	})
+	$(document).ready(function(){
+		// Осуществляет переход на 0 слайд карусели
+		$(".slide-one").click(function(){
+			$("#carousel-example-generic").carousel(0);
+		});
+		// Осуществляет переход на 1 слайд карусели
+		$(".slide-two").click(function(){
+			$("#carousel-example-generic").carousel(1);
+		});
+		// Осуществляет переход на 2 слайд карусели
+		$(".slide-three").click(function(){
+			$("#carousel-example-generic").carousel(2);
+		});
+		// Осуществляет переход на 2 слайд карусели
+		$(".slide-four").click(function(){
+			$("#carousel-example-generic").carousel(3);
+		});
+		// Осуществляет переход на 2 слайд карусели
+		$(".slide-five").click(function(){
+			$("#carousel-example-generic").carousel(4);
+		});
+		// Осуществляет переход на 2 слайд карусели
+		$(".slide-six").click(function(){
+			$("#carousel-example-generic").carousel(5);
+		});
+	});
 
 
 	$(document).ready(function () {
