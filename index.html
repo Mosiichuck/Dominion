@@ -60,7 +60,7 @@
 
 
 <section class="d-slider">
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	<div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">
 		<!--Indicators -->
 		<ol class="carousel-indicators">
 			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -539,6 +539,12 @@
 <script src="js/owl.carousel.min.js"></script>
 
 <script type="text/javascript">
+
+	$('cycle').carousel({
+		interval: 2000
+	})
+
+
 	$(document).ready(function () {
 
 		$('.bk-scroll').on('click', function (e) {
