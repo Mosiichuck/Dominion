@@ -642,7 +642,7 @@ textarea:-ms-input-placeholder {
 	font: 16px 'Open Sans Condensed', sans-serif;
 	border: 1px solid #203BFF;
 	transition: color .5s, background .5s;
-	margin: 10px 10px 0;
+	margin: 10px 0 0;
 	color: #ffffff;
 }
 
